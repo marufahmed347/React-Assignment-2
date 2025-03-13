@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme{
+    --color-primary:#F26922;
+    --color-secondary:;
+    --font-workSans: "Work Sans", serif;
+    --font-Montserrat: "Montserrat", serif;
+}
+
+body{
+    @apply font-workSans
+    
+}
