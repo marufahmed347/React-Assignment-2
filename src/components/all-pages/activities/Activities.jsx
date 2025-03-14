@@ -1,8 +1,11 @@
 import React from 'react'
+import Incidents3Navbar from './Incidents-3-Navbar';
 
 function Activities() {
   return (
-    <div>Activities</div>
+    <>
+    <Incidents3Navbar/>
+    </>
   )
 }
 

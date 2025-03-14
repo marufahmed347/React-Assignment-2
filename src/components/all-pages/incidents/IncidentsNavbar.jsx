@@ -23,7 +23,7 @@ const IncidentsNavbar = () => {
               </div>
 
               <div className='flex items-center'>
-                <button  className='bg-[#F26922] px-6 py-2 rounded-md text-white '><span className='font-bold'>+</span> New Incident</button>
+                <button  className='bg-[#F26922] px-6 py-2 rounded-md text-white  cursor-pointer'><span className='font-bold'>+</span> New Incident</button>
               </div>
 
             </div>

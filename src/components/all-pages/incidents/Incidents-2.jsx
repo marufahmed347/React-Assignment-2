@@ -26,7 +26,6 @@ function Incidents2() {
         <div className='px-10 max-w-[580px] mx-auto'>
             <h1 className='text-center text-3xl font-bold'>Let’s get started</h1>
             <p className='text-center text-[#71717A] text-[16px] pt-2 pb-4'>Lorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit gene</p>
-            
         </div>
 
         

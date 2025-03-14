@@ -23,7 +23,7 @@ const DashboardNavbar = () => {
               </div>
 
               <div className='flex items-center'>
-                <button className='bg-[#F26922] px-6 py-2 rounded-md text-white '>Cypher AI</button>
+                <button className='bg-[#F26922] px-6 py-2 rounded-md text-white cursor-pointer'>Cypher AI</button>
               </div>
 
             </div>
