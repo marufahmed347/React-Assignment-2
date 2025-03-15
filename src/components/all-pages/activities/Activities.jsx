@@ -27,7 +27,7 @@ function Activities() {
   return (
     <>
     <Incidents3Navbar/>
-    <section className='max-w-[1440px] mx-auto mt-5 mb-10 lg:mb-40'>
+    <section className='max-w-[1440px] mx-auto mt-2 mb-10 lg:mb-40'>
       <div className='max-w-[760px] mx-auto'>
         <h1 className='py-5 px-10 text-xl font-bold text-center lg:text-start'>Which of these best describes the incident?</h1>
 
