@@ -1,8 +1,11 @@
 import React from 'react'
+import LocationNavbar from './LocationNavbar';
 
 function Locations() {
   return (
-    <div>Locations</div>
+    <>
+    <LocationNavbar/>
+    </>
   )
 }
 
