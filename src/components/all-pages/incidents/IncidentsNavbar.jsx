@@ -1,6 +1,10 @@
 import React from 'react'
 
 const IncidentsNavbar = () => {
+
+  
+
+
   return (
     <>
     <section className='bg-zinc-100 max-w-[1440px] mx-auto p-3 lg:px-10 lg:py-8 '>
@@ -23,7 +27,7 @@ const IncidentsNavbar = () => {
               </div>
 
               <div className='flex items-center'>
-                <button  className='bg-[#F26922] px-6 py-2 rounded-md text-white  cursor-pointer'><span className='font-bold'>+</span> New Incident</button>
+                <button className='bg-[#F26922] px-6 py-2 rounded-md text-white  cursor-pointer'><span className='font-bold'>+</span> New Incident</button>
               </div>
 
             </div>
