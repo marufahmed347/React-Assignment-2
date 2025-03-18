@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 function Incidents2() {
 
@@ -20,9 +21,19 @@ function Incidents2() {
         },
     ]
 
+
+    const handleClick2 = useNavigate()
+    const click2 = ()=>{
+    handleClick2("/incidents2")
+    }
+
   return (
     <>
-    <section className='mt-30 mb-40 max-w-[1440px]'>
+    <section>
+
+    <div className='h-5 md:h-8 lg:h-10 bg-zinc-100'></div>
+
+    <div className='mt-30 mb-40'>
         <div className='px-10 max-w-[580px] mx-auto'>
             <h1 className='text-center text-3xl font-bold'>Let’s get started</h1>
             <p className='text-center text-[#71717A] text-[16px] pt-2 pb-4'>Lorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit gene</p>
@@ -47,8 +58,10 @@ function Incidents2() {
         </div>
 
         <div className='flex items-center justify-center pt-10'>
-            <button className='bg-[#F26922] px-6 py-2 rounded-md text-white '>Cypher AI</button>
+            <button onClick={click2} className='bg-[#F26922] px-6 py-2 rounded-md text-white cursor-pointer'>Cypher AI</button>
         </div>
+    </div>
+
     </section>
     </>
   )

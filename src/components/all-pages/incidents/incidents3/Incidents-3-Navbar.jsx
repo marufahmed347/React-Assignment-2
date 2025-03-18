@@ -1,6 +1,18 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
-function Incidents4Navbar() {
+function Incidents3Navbar() {
+
+  const handleClickNext3 = useNavigate()
+    const clickNext3 = ()=>{
+    handleClickNext3("/incidentsnext3")
+    }
+
+  const handleClickBack3 = useNavigate()
+    const clickBack3 = ()=>{
+    handleClickBack3("/incidentsback3")
+    }
+
   return (
     <>
     <section className='bg-zinc-100 max-w-[1440px] mx-auto p-3 lg:px-10 lg:py-8 '>
@@ -25,17 +37,13 @@ function Incidents4Navbar() {
             {/* right side */}
             <div className='flex flex-col lg:flex-row space-x-0 lg:space-x-2 space-y-2 lg:space-y-0'>
 
-            
                 <span>
-                <button  className='bg-white px-8 lg:px-12 py-1 lg:py-2 rounded-md text-[#71717A] border border-[#D4D4D8] cursor-pointer'>Back</button>
+                <button onClick={clickBack3} className='bg-white px-8 lg:px-12 py-1 lg:py-2 rounded-md text-[#71717A] border border-[#D4D4D8] cursor-pointer'>Back</button>
                 </span>
-            
 
-              
                 <span>
-                <button  className='bg-[#F26922] px-2 lg:px-6 py-1 lg:py-2 rounded-md text-white  cursor-pointer'><span className='font-bold'>+</span> Next step</button>
+                <button onClick={clickNext3} className='bg-[#F26922] px-2 lg:px-6 py-1 lg:py-2 rounded-md text-white  cursor-pointer'><span className='font-bold'>+</span> Next step</button>
                 </span>
-              
 
             </div>
         </div>
@@ -44,4 +52,4 @@ function Incidents4Navbar() {
   )
 }
 
-export default Incidents4Navbar;
+export default Incidents3Navbar;

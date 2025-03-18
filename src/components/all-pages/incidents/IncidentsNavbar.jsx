@@ -1,8 +1,12 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const IncidentsNavbar = () => {
 
-  
+  const handleClick1 = useNavigate()
+  const click1 = ()=>{
+    handleClick1("/incidents1")
+  }
 
 
   return (
@@ -27,7 +31,7 @@ const IncidentsNavbar = () => {
               </div>
 
               <div className='flex items-center'>
-                <button className='bg-[#F26922] px-6 py-2 rounded-md text-white  cursor-pointer'><span className='font-bold'>+</span> New Incident</button>
+                <button onClick={click1} className='bg-[#F26922] px-6 py-2 rounded-md text-white  cursor-pointer'><span className='font-bold'>+</span> New Incident</button>
               </div>
 
             </div>

@@ -1,6 +1,18 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 function Incidents5Navbar() {
+
+  const handleClickNext5 = useNavigate()
+    const clickFinished5 = ()=>{
+    handleClickNext5("/Locations")
+    }
+
+  const handleClickBack5 = useNavigate()
+    const clickBack5 = ()=>{
+    handleClickBack5("/incidentsback5")
+    }
+
   return (
     <>
     <section className='bg-zinc-100 max-w-[1440px] mx-auto p-3 lg:px-10 lg:py-8 '>
@@ -25,17 +37,13 @@ function Incidents5Navbar() {
             {/* right side */}
             <div className='flex flex-col lg:flex-row space-x-0 lg:space-x-2 space-y-2 lg:space-y-0'>
 
-            
                 <span>
-                <button  className='bg-white px-8 lg:px-12 py-1 lg:py-2 rounded-md text-[#71717A] border border-[#D4D4D8] cursor-pointer'>Back</button>
+                <button onClick={clickBack5} className='bg-white px-8 lg:px-12 py-1 lg:py-2 rounded-md text-[#71717A] border border-[#D4D4D8] cursor-pointer'>Back</button>
                 </span>
-            
 
-              
                 <span>
-                <button  className='bg-[#F26922] px-5 lg:px-8 py-1 lg:py-2 rounded-md text-white  cursor-pointer'>Finished</button>
+                <button onClick={clickFinished5} className='bg-[#F26922] px-5 lg:px-8 py-1 lg:py-2 rounded-md text-white  cursor-pointer'>Finished</button>
                 </span>
-              
 
             </div>
         </div>
