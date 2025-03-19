@@ -16,7 +16,7 @@ function Locations() {
 
           <div className='flex gap-2'>
             <div className='my-auto'>
-              <img className='w-full' src="location2.png" alt="" />
+              <img className='object-cover' src="location2.png" alt="" />
             </div>
 
             <div>
@@ -27,7 +27,7 @@ function Locations() {
 
           <div className='flex gap-2 py-10'>
             <div className='my-auto'>
-              <img className='w-full' src="location3.png" alt="" />
+              <img className='object-cover' src="location3.png" alt="" />
             </div>
 
             <div>

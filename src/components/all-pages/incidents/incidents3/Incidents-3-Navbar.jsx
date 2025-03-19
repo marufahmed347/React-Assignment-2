@@ -5,12 +5,12 @@ function Incidents3Navbar() {
 
   const handleClickNext3 = useNavigate()
     const clickNext3 = ()=>{
-    handleClickNext3("/incidentsnext3")
+    handleClickNext3("/Incidents/incidentsnext3")
     }
 
   const handleClickBack3 = useNavigate()
     const clickBack3 = ()=>{
-    handleClickBack3("/incidentsback3")
+    handleClickBack3("/Incidents/incidentsback3")
     }
 
   return (
@@ -20,7 +20,7 @@ function Incidents3Navbar() {
             {/* left side */}
             <div className='flex gap-2'>
                 <div className='flex justify-center items-center'>
-                  <img className=' w-10 h-10 ' src="into.png" alt="" />
+                  <img className=' w-10 h-10 ' src="/into.png" alt="" />
                 </div>
 
                 <div className='my-auto'>
@@ -31,7 +31,7 @@ function Incidents3Navbar() {
 
             {/* middle side */}
             <div className='hidden lg:flex justify-center items-center'>
-              <img src="line2.png" alt="" />
+              <img src="/line2.png" alt="" />
             </div>
 
             {/* right side */}

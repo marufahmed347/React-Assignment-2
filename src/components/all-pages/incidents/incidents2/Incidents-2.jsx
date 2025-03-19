@@ -5,17 +5,17 @@ function Incidents2() {
 
     const Card = [
         {
-            img:"img1.png",
+            img:"/img1.png",
             heading:"What type of incident?",
             para:"Choose the category that best describes the incident."
         },
         {
-            img:"img2.png",
+            img:"/img2.png",
             heading:"Tell us about the incident?",
             para:"Let’s connect the dots and see where to start."
         },
         {
-            img:"img3.png",
+            img:"/img3.png",
             heading:"Where did the incident occur?",
             para:"Lorem ipsum dolar sit general sac mascho werho"
         },
@@ -24,7 +24,7 @@ function Incidents2() {
 
     const handleClick2 = useNavigate()
     const click2 = ()=>{
-    handleClick2("/incidents2")
+    handleClick2("/Incidents/incidents2")
     }
 
   return (
@@ -41,7 +41,7 @@ function Incidents2() {
 
         
         <div className='px-10 pt-0 lg:pt-2 pb-5 lg:pb-8'>
-        <img className='w-155 mx-auto' src="line.png" alt="" />
+        <img className='w-155 mx-auto' src="/line.png" alt="" />
         </div>
         
 

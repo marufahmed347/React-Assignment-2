@@ -16,22 +16,22 @@ function Incidents5() {
 
         <div className='absolute left-2 lg:left-5 top-2 lg:top-5'>
         <div className='relative lg:flex items-center rounded py-1'>
-          <img className='absolute ml-2 pt-3 lg:pt-0 pointer-events-none' src="search.png" alt="" />
+          <img className='absolute ml-2 pt-3 lg:pt-0 pointer-events-none' src="/search.png" alt="" />
           <input type="text" name='search' placeholder='Enter incident address or GPS' autoComplete='off' aria-label='Search incident' className='bg-white py-2 pl-8 placeholder-[#71717A] placeholder:text-xs text-black rounded border-none' />
         </div>
 
         <div className='relative lg:flex items-center rounded'>
-          <img className='absolute ml-2 pt-3 lg:pt-0 pointer-events-none' src="search.png" alt="" />
+          <img className='absolute ml-2 pt-3 lg:pt-0 pointer-events-none' src="/search.png" alt="" />
           <input type="text" name='search' placeholder='Pinpoint damage' autoComplete='off' aria-label='Search incident' className='bg-white py-2 pl-8 placeholder-[#71717A] placeholder:text-xs text-black rounded border-none' />
         </div>
         </div>
 
         <div className='absolute lg:flex hidden lg:right-66 lg:top-35'>
-          <img src="location.png" alt="" />
+          <img src="/location.png" alt="" />
         </div>
 
         <div className=' flex justify-center items-center'>
-          <img className='lg:pb-40 pb:10' src="map1.png" alt="" />
+          <img className='lg:pb-40 pb:10' src="/map1.png" alt="" />
         </div>
 
       </div>

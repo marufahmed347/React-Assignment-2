@@ -5,9 +5,9 @@ const IncidentsNavbar = () => {
 
   const handleClick1 = useNavigate()
   const click1 = ()=>{
-    handleClick1("/incidents1")
+    handleClick1("/Incidents/incidents1")
   }
-
+  
 
   return (
     <>

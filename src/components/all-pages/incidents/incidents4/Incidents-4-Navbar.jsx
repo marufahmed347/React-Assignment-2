@@ -5,12 +5,12 @@ function Incidents4Navbar() {
 
   const handleClickNext4 = useNavigate()
     const clickNext4 = ()=>{
-    handleClickNext4("/incidentsnext4")
+    handleClickNext4("/Incidents/incidentsnext4")
     }
 
   const handleClickBack4 = useNavigate()
     const clickBack4 = ()=>{
-    handleClickBack4("/incidentsback4")
+    handleClickBack4("/Incidents/incidentsback4")
     }
 
   return (
@@ -20,7 +20,7 @@ function Incidents4Navbar() {
             {/* left side */}
             <div className='flex gap-2'>
                 <div className='flex justify-center items-center'>
-                  <img className=' w-10 h-10 ' src="into.png" alt="" />
+                  <img className=' w-10 h-10 ' src="/into.png" alt="" />
                 </div>
 
                 <div className='my-auto'>
@@ -31,7 +31,7 @@ function Incidents4Navbar() {
 
             {/* middle side */}
             <div className='hidden lg:flex justify-center items-center'>
-              <img src="line2.png" alt="" />
+              <img src="/line2.png" alt="" />
             </div>
 
             {/* right side */}

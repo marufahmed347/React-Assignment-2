@@ -11,7 +11,7 @@ function NavbarArea() {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <div>
-              <NavLink to='/'><img src="logo.png" alt=""/></NavLink>
+              <NavLink to='/'><img src="/logo.png" alt=""/></NavLink>
             </div>
 
             {/* Desktop Menu */}
@@ -93,12 +93,12 @@ function NavbarArea() {
             <div className="hidden lg:flex space-x-2">
               
               <div className="flex justify-center items-center">
-                <img src="noti.png" alt="" />
+                <img src="/noti.png" alt="" />
               </div>
 
               <div className="flex space-x-2">
                 <div className="flex justify-center items-center">
-                <img src="man.png" alt="" />
+                <img src="/man.png" alt="" />
                 </div>
                 <div className="flex-col mx-auto text-[#71717A]">
                   <p className="font-semibold">Usman Zafar</p>

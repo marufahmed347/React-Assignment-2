@@ -1,6 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import './App.css'
-import NavbarArea from "./components/Navbar";
+import NavbarArea from "./components/common/Navbar";
 import Dashboard from "./components/all-pages/dashboard/Dashboard";
 import Incidents from "./components/all-pages/incidents/Incidents";
 import Locations from "./components/all-pages/locations/Locations";
@@ -28,17 +28,16 @@ function App() {
           <Route path='/Cypher AI' element={<CypherAI/>} />
           
 
-          <Route path="/incidents1" element={<Incidents2/>}/>
-          <Route path="/incidents2" element={<Incidents3/>}/>
-          <Route path="/incidentsnext3" element={<Incidents4/>}/>
-          <Route path="/incidentsback3" element={<Incidents2/>}/>
-          <Route path="/incidentsnext4" element={<Incidents5/>}/>
-          <Route path="/incidentsback4" element={<Incidents3/>}/>
-          <Route path="/incidentsback5" element={<Incidents4/>}/>
+          <Route path="/Incidents/incidents1" element={<Incidents2/>}/>
+          <Route path="/Incidents/incidents2" element={<Incidents3/>}/>
+          <Route path="/Incidents/incidentsnext3" element={<Incidents4/>}/>
+          <Route path="/Incidents/incidentsback3" element={<Incidents2/>}/>
+          <Route path="/Incidents/incidentsnext4" element={<Incidents5/>}/>
+          <Route path="/Incidents/incidentsback4" element={<Incidents3/>}/>
+          <Route path="/Incidents/incidentsback5" element={<Incidents4/>}/>
 
         </Routes>
 
-        
       </Router>
     </div>
   )
