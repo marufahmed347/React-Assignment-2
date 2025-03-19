@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Card from '../../common/card';
+import Card from '../../common/Card';
 import DashboardNavbar from './DashboardNavbar';
 
 
